@@ -26,6 +26,8 @@ Database: MySQL (Not Included in this Repo)
 
 JDBC for Database Connectivity
 
+Build Tool: Maven
+
 Installation & Setup
 
 Clone this repository:
@@ -33,6 +35,12 @@ Clone this repository:
 git clone https://github.com/Aniket0107Java/Tap_Foods.git
 
 Open the project in your preferred IDE (Eclipse, IntelliJ, etc.).
+
+Ensure Maven is installed and configured.
+
+Run the following command to install all dependencies:
+
+mvn clean install
 
 Configure the database connection in the Java backend (JDBC).
 
